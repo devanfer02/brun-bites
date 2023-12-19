@@ -1104,6 +1104,11 @@ video {
   padding-bottom: 6rem;
 }
 
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .pb-12{
   padding-bottom: 3rem;
 }
@@ -1600,6 +1605,11 @@ video {
   .lg\:py-8{
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .lg\:px-12{
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .lg\:pl-12{
