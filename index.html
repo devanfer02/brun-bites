@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@700&display=swap" />
+  <link rel="stylesheet" href="build/index.css">
+  <link rel="icon" href="assets/page-icon/brun.jpg">
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <title>Brun. Bites</title>
+</head>
+<body>
+  <nav class="flex items-center justify-between flex-wrap lg:py-6 lg:pl-12 lg:pr-16">
+    <div class="flex items-center flex-shrink-0 mr-6 p-6 lg:p-0">
+      <h1 class="font-bold text-4xl tracking-tight text-bun-orange font-comicy">Brun.</h1>
+    </div>
+    <div class="block lg:hidden p-6 lg:p-0">
+      <button class="flex items-center px-3 py-2 border bg-bun-orange text-white rounded-xl" onclick="toggle_nav()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 17h14M5 12h14M5 7h14"/></svg>
+      </button>
+    </div>
+    <div class="w-full lg:flex lg:items-end justify-end lg:w-auto hidden lg:bg-white bg-bun-orange" id="nav-links">
+      <div class="text-md lg:flex-grow font-mplus-bold font-semibold text-white mb-8 mt-4 lg:mt-0 lg:mb-0">
+        <a href="" class="block mt-4 lg:inline-block lg:mt-0 pl-4 lg:mx-2 lg:bg-bun-orange lg:text-white lg:px-5 lg:py-[0.6em] py-2 lg:rounded-xl border border-bun-orange hover:bg-white hover:text-bun-orange duration-300 ease-in-out">
+          Log In
+        </a>
+        <a href="" class="block mt-4 lg:inline-block lg:mt-0 pl-4 lg:mx-2 lg:bg-bun-orange lg:text-white lg:px-5 lg:py-[0.6em] py-2 lg:rounded-xl border border-bun-orange hover:bg-white hover:text-bun-orange duration-300 ease-in-out">
+          Sign In
+        </a>
+      </div>
+    </div>
+  </nav>
+  <section id="homepage" class="lg:px-8">
+    <section id="hero" class="flex flex-wrap pb-8 container">
+      <div class="w-full flex flex-wrap items-center justify-center lg:hidden">
+        <img src="assets/img/brun1.jpg" alt="hero-brun" class="mx-auto">
+      </div>
+      <div class="w-full text-center mt-10 font-mplus-bold lg:w-1/2 items-center mx-auto">
+        <div class="lg:text-left lg:ml-6">
+          <p class="text-bun-orange font-bold">Description</p>
+          <h1 class="uppercase font-bold text-4xl lg:text-5xl text-bun-orange mt-4 lg:text-bun-blue lg:w-[250px]">
+            Have a <span class="text-bun-blue font-comicy lg:text-bun-orange">Brun.</span> 
+            Day All!!
+          </h1>
+          <p class="text-bun-gray text-opacity-50 mt-8 lg:w-[350px]">"BRUN, Sensasi Manis Brownies Bites dan Soft Cookies yang Menggugah Selera!"</p>
+        </div>
+        <div class="flex flex-wrap lg:container w-full justify-start mb-2 mt-4">
+          <div class="w-full lg:w-1/2">
+            <a href="" class="bg-bun-orange block w-full rounded-lg text-white py-4 border border-bun-orange hover:bg-white hover:text-bun-orange duration-300 ease-in-out">
+              Get Started
+            </a>
+          </div>
+          <div class="flex justify-center w-full lg:w-1/2">
+            <a href="" class="flex w-full justify-center items-center py-6 lg:py-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" class="mx-2 hidden lg:inline"><path fill="currentColor" fill-rule="evenodd" d="M20.75 16.714a.755.755 0 0 1-.014.143a.75.75 0 0 1-.736.893H6a1.25 1.25 0 1 0 0 2.5h14a.75.75 0 0 1 0 1.5H6A2.75 2.75 0 0 1 3.25 19V5A2.75 2.75 0 0 1 6 2.25h13.4c.746 0 1.35.604 1.35 1.35zM9 6.25a.75.75 0 0 0 0 1.5h6a.75.75 0 0 0 0-1.5z" clip-rule="evenodd"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="mx-2 lg:hidden"><path fill="currentColor" fill-rule="evenodd" d="M20.75 16.714a.755.755 0 0 1-.014.143a.75.75 0 0 1-.736.893H6a1.25 1.25 0 1 0 0 2.5h14a.75.75 0 0 1 0 1.5H6A2.75 2.75 0 0 1 3.25 19V5A2.75 2.75 0 0 1 6 2.25h13.4c.746 0 1.35.604 1.35 1.35zM9 6.25a.75.75 0 0 0 0 1.5h6a.75.75 0 0 0 0-1.5z" clip-rule="evenodd"/></svg>
+              <span class="uppercase mx-2 font-normal">Cookie Lookbook</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="w-1/2 flex-wrap items-center justify-center hidden lg:flex">
+        <img src="assets/img/brun1.jpg" alt="hero-brun" class="mx-auto">
+      </div>
+    </section>
+    <section id="sponsor" class="my-12 container pb-8 text-center">
+      <p class="text-bun-gray text-opacity-50 uppercase font-semibold">Sponsored By</p>
+      <div class="flex flex-wrap justify-center py-5 my-2">
+        <img class="lg:mx-[2.7em] mx-4 " src="assets/icons/icon4.svg" alt="tripadvisor">
+        <img class="lg:mx-[2.7em] mx-4 " src="assets/icons/icon1.svg" alt="expedia">
+        <img class="lg:mx-[2.7em] mx-4 " src="assets/icons/icon2.svg" alt="booking">
+        <img class="lg:mx-[2.7em] mx-4 " src="assets/icons/icon3.svg" alt="airbnb">
+        <img class="lg:mx-[2.7em] mx-4 " src="assets/icons/icon5.svg" alt="rbitz">
+      </div>
+    </section>
+    <section id="lookbook" class="mt-10 container pb-8">
+      <div class="flex flex-wrap">
+        <div class="mb-10 w-full xl:w-1/2">
+          <div class="relative">
+            <button id="nextBtn" class="absolute font-bold top-1/2 left-4 transform -translate-y-1/2 bg-bun-orange text-white rounded-full cursor-pointer w-12 h-12 items-center justify-center text-center hidden lg:flex xl:hidden border border-bun-orange hover:bg-white hover:text-bun-orange duration-300 ease-in-out">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M14.75 8a.75.75 0 0 1-.75.75H3.81l2.72 2.72a.75.75 0 1 1-1.06 1.06l-4-4a.75.75 0 0 1 0-1.06l4-4a.75.75 0 0 1 1.06 1.06L3.81 7.25H14a.75.75 0 0 1 .75.75" clip-rule="evenodd"/></svg>
+            </button>          
+            <img src="assets/img/cookie1.jpg" alt="cookie" class="mx-auto">
+            <button id="nextBtn" class="absolute font-bold top-1/2 right-4 transform -translate-y-1/2 bg-bun-orange text-white rounded-full cursor-pointer w-12 h-12 items-center justify-center text-center hidden lg:flex xl:hidden border border-bun-orange hover:bg-white hover:text-bun-orange duration-300 ease-in-out">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M1.25 8A.75.75 0 0 1 2 7.25h10.19L9.47 4.53a.75.75 0 0 1 1.06-1.06l4 4a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 1 1-1.06-1.06l2.72-2.72H2A.75.75 0 0 1 1.25 8" clip-rule="evenodd"/></svg>
+            </button>          
+          </div>
+          <div class="relative hidden xl:flex">
+            <button id="nextBtn" class="absolute font-bold top-1/2 left-4 transform -translate-y-1/2 bg-bun-orange text-white rounded-full cursor-pointer w-12 h-12 flex items-center justify-center border border-bun-orange hover:bg-white hover:text-bun-orange duration-300 ease-in-out">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M14.75 8a.75.75 0 0 1-.75.75H3.81l2.72 2.72a.75.75 0 1 1-1.06 1.06l-4-4a.75.75 0 0 1 0-1.06l4-4a.75.75 0 0 1 1.06 1.06L3.81 7.25H14a.75.75 0 0 1 .75.75" clip-rule="evenodd"/></svg>
+            </button>          
+            <div class="mx-auto flex flex-wrap">
+              <img src="assets/img/cookie1.jpg" alt="cookie" class="object-cover max-h-[150px] max-w-[150px]">
+              <img src="assets/img/cookie2.jpg" alt="cookie" class="object-cover max-h-[150px] max-w-[150px]">
+            </div>
+            <button id="nextBtn" class="absolute font-bold top-1/2 right-4 transform -translate-y-1/2 bg-bun-orange text-white rounded-full cursor-pointer w-12 h-12 flex items-center justify-center border border-bun-orange hover:bg-white hover:text-bun-orange duration-300 ease-in-out">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M1.25 8A.75.75 0 0 1 2 7.25h10.19L9.47 4.53a.75.75 0 0 1 1.06-1.06l4 4a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 1 1-1.06-1.06l2.72-2.72H2A.75.75 0 0 1 1.25 8" clip-rule="evenodd"/></svg>
+            </button>          
+          </div>
+        </div>
+        <div class="text-center xl:text-left font-mplus-bold w-full xl:w-1/2">
+          <p class="uppercase text-bun-orange lg:text-lg">
+            Lookbook
+          </p>
+          <h2 class="uppercase text-bun-black text-2xl lg:text-4xl">
+            Classic Chocochips Melted Soft Cookies 
+          </h2>
+          <p class="text-bun-black text-opacity-50 mt-4 lg:text-lg">
+            memadukan kelembutan tekstur dengan rasa cokelat klasik yang menggoda, dipenuhi dengan chocochips lembut dan couverture yang meleleh ketika digigit, menciptakan harmoni sempurna antara manis dan gurih.
+          </p>
+          <div class="text-center grid grid-cols-1 lg:grid-cols-2">
+            <div class="my-10 py-2">
+              <h4 class="text-bun-orange font-bold text-4xl">
+                150 kkal
+              </h4>
+              <p class="text-bun-black mt-4">Kalori</p>
+            </div>
+            <div class="my-10 py-2">
+              <h4 class="text-bun-orange font-bold text-4xl">
+                20 gr
+              </h4>
+              <p class="text-bun-black mt-4">Karbohidrat</p>
+            </div>
+            <div class="my-10 py-2">
+              <h4 class="text-bun-orange font-bold text-4xl">
+                2 gr
+              </h4>
+              <p class="text-bun-black mt-4">Protein</p>
+            </div>
+            <div class="my-10 py-2">
+              <h4 class="text-bun-orange font-bold text-4xl">
+                8 gr
+              </h4>
+              <p class="text-bun-black mt-4">Lemak</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="promo" class="mt-10 container pb-4">
+      <div class="pb-4 hidden lg:flex">
+        <div class="mb-8 text-left pl-4 w-2/3">
+          <h3 class="uppercase text-bun-orange text-xl font-semibold">
+            Promo Seru!!
+          </h3>
+          <h1 class="uppercase text-bun-black text-4xl mt-2 font-bold">
+            Promo Bulan Oktober
+          </h1>
+        </div>
+        <div class="relative mt-8 mb-4 justify-center items-center hidden lg:inline w-1/3">
+          <button id="nextBtn" class="absolute font-bold top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 bg-bun-orange text-white rounded-full cursor-pointer w-16 h-16 flex items-center justify-center text-center border border-bun-orange hover:bg-white hover:text-bun-orange duration-300 ease-in-out mx-12">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M1.25 8A.75.75 0 0 1 2 7.25h10.19L9.47 4.53a.75.75 0 0 1 1.06-1.06l4 4a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 1 1-1.06-1.06l2.72-2.72H2A.75.75 0 0 1 1.25 8" clip-rule="evenodd"/></svg>
+          </button>          
+          <button id="nextBtn" class="absolute font-bold top-1/2 right-1/2 transform -translate-y-1/2 translate-x-1/2 bg-bun-orange text-white rounded-full cursor-pointer w-16 h-16 flex items-center justify-center text-center border border-bun-orange hover:bg-white hover:text-bun-orange duration-300 ease-in-out mx-12">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M14.75 8a.75.75 0 0 1-.75.75H3.81l2.72 2.72a.75.75 0 1 1-1.06 1.06l-4-4a.75.75 0 0 1 0-1.06l4-4a.75.75 0 0 1 1.06 1.06L3.81 7.25H14a.75.75 0 0 1 .75.75" clip-rule="evenodd"/></svg>
+          </button>          
+        </div>        
+      </div>
+      <div class="text-center pb-8 lg:hidden">
+        <div class="mb-8">
+          <h3 class="uppercase text-bun-orange text-lg font-semibold">
+            Promo Seru!!
+          </h3>
+          <h1 class="uppercase text-bun-black text-3xl mt-2 font-bold">
+            Promo Bulan Oktober
+          </h1>
+        </div>
+        <div class="relative mt-8 flex justify-center items-center lg:hidden">
+          <button id="nextBtn" class="absolute font-bold top-1/2 left-4 transform -translate-y-1/2 -translate-x-1/2 bg-bun-orange text-white rounded-full cursor-pointer w-12 h-12 flex items-center justify-center text-center border border-bun-orange hover:bg-white hover:text-bun-orange duration-300 ease-in-out mx-12">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M14.75 8a.75.75 0 0 1-.75.75H3.81l2.72 2.72a.75.75 0 1 1-1.06 1.06l-4-4a.75.75 0 0 1 0-1.06l4-4a.75.75 0 0 1 1.06 1.06L3.81 7.25H14a.75.75 0 0 1 .75.75" clip-rule="evenodd"/></svg>
+          </button>          
+          <button id="nextBtn" class="absolute font-bold top-1/2 right-4 transform -translate-y-1/2 translate-x-1/2 bg-bun-orange text-white rounded-full cursor-pointer w-12 h-12 flex items-center justify-center text-center border border-bun-orange hover:bg-white hover:text-bun-orange duration-300 ease-in-out mx-12">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M1.25 8A.75.75 0 0 1 2 7.25h10.19L9.47 4.53a.75.75 0 0 1 1.06-1.06l4 4a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 1 1-1.06-1.06l2.72-2.72H2A.75.75 0 0 1 1.25 8" clip-rule="evenodd"/></svg>
+          </button>          
+        </div>        
+      </div>
+      <div class="mt-8 font-mplus-bold flex flex-wrap items-center justify-center">
+        <div class="shadow-xl bg-white my-6">
+          <div>
+            <img src="assets/img/promo1.jpg" alt="" class="object-cover w-full h-80 rounded-t-xl hover:brightness-50 duration-300 ease-in-out">
+          </div>
+          <div class="p-6 mt-4 pb-8">
+            <p class="text-bun-black text-2xl break-words whitespace-pre-wrap w-inherit">Paradise Beach, Bantayan Island</p>
+            <p class="text-bun-pink">IDR 50k</p>
+            <p class="text-bun-black text-opacity-60 mt-6">4 Pcs Soft Cookies + 1 Cup Brownies Bites</p>
+            <p class="text-bun-orange text-lg mt-5">4.8 <iconify-icon icon="bi:star-fill"></iconify-icon></p>
+          </div>
+        </div>
+        <div class="shadow-xl bg-white my-6 lg:mx-2">
+          <div>
+            <img src="assets/img/promo2.jpg" alt="" class="object-cover w-full h-80 rounded-t-xl hover:brightness-50 duration-300 ease-in-out">
+          </div>
+          <div class="p-6 mt-4 pb-8">
+            <p class="text-bun-black text-2xl break-words whitespace-pre-wrap w-inherit">Bundling "SweetTober"</p>
+            <p class="text-bun-pink">IDR 150k</p>
+            <p class="text-bun-black text-opacity-60 mt-6">3 Box Soft Cookies + 1 Cup Brownies Bites</p>
+            <p class="text-bun-orange text-lg mt-5">4.6 <iconify-icon icon="bi:star-fill"></iconify-icon></p>
+          </div>
+        </div>  
+        <div class="shadow-xl bg-white my-6">
+          <div>
+            <img src="assets/img/promo3.jpg" alt="" class="object-cover w-full h-80 rounded-t-xl hover:brightness-50 duration-300 ease-in-out">
+          </div>
+          <div class="p-6 mt-4 pb-8">
+            <p class="text-bun-black text-2xl break-words whitespace-pre-wrap w-inherit">Bundling “ChocoBliss”</p>
+            <p class="text-bun-pink">IDR 120k</p>
+            <p class="text-bun-black text-opacity-60 mt-6">2 Box Soft Cookies + 2 Cup Brownies Bites</p>
+            <p class="text-bun-orange text-lg mt-5">5.0 <iconify-icon icon="bi:star-fill"></iconify-icon></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="container mt-4 pb-12">
+      <div class="text-center font-mplus-bold">
+        <p class="text-bun-pink uppercase text-lg tracking-wide">
+          Services 
+        </p>
+        <h1 class="text-bun-black text-3xl">
+          Our top values categories for you
+        </h1>
+      </div>
+      <div class="flex flex-wrap justify-center items-center mt-4 pt-8">
+        <div class="lg:w-1/3 w-full max-w-[350px] mx-6 pt-4">
+          <img src="assets/img/service1.jpg" alt="" class="mx-auto">
+          <h2 class="text-bun-black font-semibold text-3xl mt-4 text-center lg:text-left">
+            No-Mess Pancake Dispenser
+          </h2>
+          <p class="text-bun-black text-opacity-80 text-xl mt-5 text-center lg:text-left">
+            Menciptakan pancake sempurna tanpa tumpahan atau kerusakan,
+          </p>
+        </div>
+        <div class="lg:w-1/3 w-full max-w-[350px] mx-6 pt-4">
+          <img src="assets/img/service2.jpg" alt="" class="mx-auto">
+          <h2 class="text-bun-black font-semibold text-3xl mt-4 text-center lg:text-left">
+            Herb-Infused Ice Cubes 
+          </h2>
+          <p class="text-bun-black text-opacity-80 text-xl mt-5 text-center lg:text-left">
+            Tambahkan sentuhan segar dan aroma ke hindangan menggunakan kubuh es yang mengadung herb
+          </p>
+        </div>
+        <div class="lg:w-1/3 w-full max-w-[350px] mx-6 pt-4">
+          <img src="assets/img/service1.jpg" alt="" class="mx-auto">
+          <h2 class="text-bun-black font-semibold text-3xl mt-4 text-center lg:text-left">
+            Quick Chill Wine Hack 
+          </h2>
+          <p class="text-bun-black text-opacity-80 text-xl mt-5 text-center lg:text-left">
+            Diinginkan botol anggur dalam hitungan menit dengan trik cepat ini
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="order" class="mt-8 container">
+      <div class="p-12">
+        <p class="uppercase text-bun-orange font-semibold text-xl">Order</p>
+        <h2 class="text-4xl text-bun-black font-bold">Place your Order Now</h2>
+        <p class="text-bun-black text-opacity-60 text-xl mt-6 w-[90%]">
+          Sajikan BRUN dalam momen spesial Anda atau berikan sebagai hadiah istimewa. Pesan sekarang dan rasakan kelezatan BRUN. sekarang juga.
+        </p>
+      </div>
+      <div class="flex flex-wrap font-mplus-bold px-12 pb-12">
+        <div class="w-full lg:w-1/3 shadow-lg">
+          <img src="assets/img/order1.jpg" alt="" class="hover:brightness-50 duration-300 ease-in-out">
+          <div class="mt-4">
+            <h4 class="uppercase text-bun-black">
+              Brownies Cranberry
+            </h4>
+            <p class="text-bun-black mt-2">
+              IDR 200k
+            </p>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/3 shadow-lg">
+          <img src="assets/img/order2.jpg" alt="" class="hover:brightness-50 duration-300 ease-in-out">
+          <div class="mt-4">
+            <h4 class="uppercase text-bun-black">
+              Cookies Choco Chip
+            </h4>
+            <p class="text-bun-black mt-2">
+              IDR 110k
+            </p>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/3 shadow-lg">
+          <img src="assets/img/order3.jpg" alt="" class="hover:brightness-50 duration-300 ease-in-out">
+          <div class="mt-4">
+            <h4 class="uppercase text-bun-black">
+              Cookies Boom 
+            </h4>
+            <p class="text-bun-black mt-2">
+              IDR 150k
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="team" class="text-center container mt-16">
+      <div>
+        <p class="uppercase text-bun-pink font-semibold text-xl tracking-wide">Testimonials</p>
+        <h1 class="text-bun-black font-bold text-3xl tracking-wide">Trust Our Clients</h1>
+      </div>
+      <div class="relative flex justify-center items-center lg:hidden my-12">
+        <button id="nextBtn" class="absolute font-bold top-1/2 left-4 transform -translate-y-1/2 -translate-x-1/2 bg-bun-orange text-white rounded-full cursor-pointer w-16 h-16 flex items-center justify-center text-center border border-bun-orange hover:bg-white hover:text-bun-orange duration-300 ease-in-out mx-12" onclick="show_slides(-1)">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M14.75 8a.75.75 0 0 1-.75.75H3.81l2.72 2.72a.75.75 0 1 1-1.06 1.06l-4-4a.75.75 0 0 1 0-1.06l4-4a.75.75 0 0 1 1.06 1.06L3.81 7.25H14a.75.75 0 0 1 .75.75" clip-rule="evenodd"/></svg>          
+        </button>          
+        <button id="nextBtn" class="absolute font-bold top-1/2 right-4 transform -translate-y-1/2 translate-x-1/2 bg-bun-orange text-white rounded-full cursor-pointer w-16 h-16 flex items-center justify-center text-center border border-bun-orange hover:bg-white hover:text-bun-orange duration-300 ease-in-out mx-12" onclick="show_slides(+1)">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M1.25 8A.75.75 0 0 1 2 7.25h10.19L9.47 4.53a.75.75 0 0 1 1.06-1.06l4 4a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 1 1-1.06-1.06l2.72-2.72H2A.75.75 0 0 1 1.25 8" clip-rule="evenodd"/></svg>
+        </button>          
+      </div>
+      <div class="relative max-w-100 mt-8 m-auto mb-12">
+        <button id="nextBtn" class="absolute font-bold top-1/2 left-4 transform -translate-y-1/2 -translate-x-1/2 bg-bun-orange text-white rounded-full cursor-pointer w-16 h-16 hidden lg:flex items-center justify-center text-center border border-bun-orange hover:bg-white hover:text-bun-orange duration-300 ease-in-out mx-12" onclick="show_slides(-1)">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M14.75 8a.75.75 0 0 1-.75.75H3.81l2.72 2.72a.75.75 0 1 1-1.06 1.06l-4-4a.75.75 0 0 1 0-1.06l4-4a.75.75 0 0 1 1.06 1.06L3.81 7.25H14a.75.75 0 0 1 .75.75" clip-rule="evenodd"/></svg>          
+        </button>          
+        <div class="lg:mx-20 fade slides">
+          <img src="assets/img/team/team1.jpg" alt="" class="mx-auto">
+          <div class="mt-8 font-mplus-bold text-center">
+            <h3 class="text-bun-orange text-xl">Zakiyya <span class="text-bun-black opacity-70">/ Travel Enthusiast</span></h3>
+            <div class="mt-4">
+              <iconify-icon class="text-yellow-400 w-[30px] h-[30px] mx-2" width="30" icon="bi:star-fill"></iconify-icon>
+              <iconify-icon class="text-yellow-400 w-[30px] h-[30px] mx-2" width="30" icon="bi:star-fill"></iconify-icon>
+              <iconify-icon class="text-yellow-400 w-[30px] h-[30px] mx-2" width="30" icon="bi:star-fill"></iconify-icon>
+              <iconify-icon class="text-yellow-400 w-[30px] h-[30px] mx-2" width="30" icon="bi:star-fill"></iconify-icon>
+            </div>
+            <p class="text-bun-black text-opacity-60 p-5 w-[90%] mx-auto lg:text-lg">
+              Delicious treats all around! The variety of brownies and cookies is impressive. I particularly loved the walnut-infused brownies; the crunchiness added a nice texture. The staff was friendly, and the aroma of fresh-baked goods made the whole experience delightful. I'll be back for sure!
+            </p>
+          </div>
+        </div>
+        <div class="lg:mx-20 fade slides">
+          <img src="assets/img/team/team2.jpg" alt="" class="mx-auto">
+          <div class="mt-8 font-mplus-bold text-center">
+            <h3 class="text-bun-orange text-xl">Desindy <span class="text-bun-black opacity-70">/ Food Culinary Enthusiast</span></h3>
+            <div class="mt-4">
+              <iconify-icon class="text-yellow-400 w-[30px] h-[30px] mx-2" width="30" icon="bi:star-fill"></iconify-icon>
+              <iconify-icon class="text-yellow-400 w-[30px] h-[30px] mx-2" width="30" icon="bi:star-fill"></iconify-icon>
+              <iconify-icon class="text-yellow-400 w-[30px] h-[30px] mx-2" width="30" icon="bi:star-fill"></iconify-icon>
+              <iconify-icon class="text-yellow-400 w-[30px] h-[30px] mx-2" width="30" icon="bi:star-fill"></iconify-icon>
+              <iconify-icon class="text-yellow-400 w-[30px] h-[30px] mx-2" width="30" icon="bi:star-fill"></iconify-icon>
+            </div>
+            <p class="text-bun-black text-opacity-60 p-5 w-[90%] mx-auto lg:text-lg">
+              Absolutely divine! The brownies at this store are like bites of heaven. Moist, fudgy, and with the perfect amount of chocolatey goodness. The cookies are equally delightful—crispy on the edges, chewy in the middle. This place is a sweet tooth's paradise!
+            </p>
+          </div>
+        </div>
+        <div class="lg:mx-20 fade slides">
+          <img src="assets/img/team/team3.jpg" alt="" class="mx-auto">
+          <div class="mt-8 font-mplus-bold text-center">
+            <h3 class="text-bun-orange text-xl">Winanda <span class="text-bun-black opacity-70">/ Food Critic</span></h3>
+            <div class="mt-4">
+              <iconify-icon class="text-yellow-400 w-[30px] h-[30px] mx-2" width="30" icon="bi:star-fill"></iconify-icon>
+              <iconify-icon class="text-yellow-400 w-[30px] h-[30px] mx-2" width="30" icon="bi:star-fill"></iconify-icon>
+              <iconify-icon class="text-yellow-400 w-[30px] h-[30px] mx-2" width="30" icon="bi:star-fill"></iconify-icon>
+            </div>
+            <p class="text-bun-black text-opacity-60 p-5 w-[90%] mx-auto lg:text-lg">
+              "Decent but not mind-blowing. The cookies were good, but I expected a bit more in terms of flavor variety. The brownies were rich, but a tad too sweet for my taste. The store ambiance was cozy, though, and the staff was polite. It's worth a try, especially if you have a serious sweet tooth.
+            </p>
+          </div>
+        </div>
+        <div class="lg:mx-20 fade slides">
+          <img src="assets/img/team/team4.jpg" alt="" class="mx-auto">
+          <div class="mt-8 font-mplus-bold text-center">
+            <h3 class="text-bun-orange text-xl">Budi <span class="text-bun-black opacity-70">/ Food Vlogger</span></h3>
+            <div class="mt-4">
+              <iconify-icon class="text-yellow-400 w-[30px] h-[30px] mx-2" width="30" icon="bi:star-fill"></iconify-icon>
+              <iconify-icon class="text-yellow-400 w-[30px] h-[30px] mx-2" width="30" icon="bi:star-fill"></iconify-icon>
+              <iconify-icon class="text-yellow-400 w-[30px] h-[30px] mx-2" width="30" icon="bi:star-fill"></iconify-icon>
+              <iconify-icon class="text-yellow-400 w-[30px] h-[30px] mx-2" width="30" icon="bi:star-fill"></iconify-icon>
+              <iconify-icon class="text-yellow-400 w-[30px] h-[30px] mx-2" width="30" icon="bi:star-fill"></iconify-icon>
+            </div>
+            <p class="text-bun-black text-opacity-60 p-5 w-[90%] mx-auto lg:text-lg">
+              Hidden gem alert! This brownie and cookie store surpassed all my expectations. The sea salt caramel brownies are a revelation, and the white chocolate macadamia nut cookies are to die for. The presentation is top-notch, and the owner's passion for baking really shines through. A must-visit for dessert enthusiasts!
+            </p>
+          </div>
+        </div>
+        <button id="nextBtn" class="absolute font-bold top-1/2 right-4 transform -translate-y-1/2 translate-x-1/2 bg-bun-orange text-white rounded-full cursor-pointer w-16 h-16 hidden lg:flex items-center justify-center text-center border border-bun-orange hover:bg-white hover:text-bun-orange duration-300 ease-in-out mx-12" onclick="show_slides(+1)">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M1.25 8A.75.75 0 0 1 2 7.25h10.19L9.47 4.53a.75.75 0 0 1 1.06-1.06l4 4a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 1 1-1.06-1.06l2.72-2.72H2A.75.75 0 0 1 1.25 8" clip-rule="evenodd"/></svg>
+        </button>          
+      </div>
+      <section id="subscribe" class="mt-8 mb-12">
+        <div class="bg-bun-orange font-mplus-bold px-12 py-24 rounded-xl self-center flex flex-col items-center justify-center">
+          <p class="text-white uppercase text-lg mb-4">Subscribe to our information and promo</p>
+          <h3 class="lg:text-5xl mt-4 text-3xl text-bun-black lg:w-[80%]">"Embrace the Journey: Join the BRUN. Member and Discover Sweet Adventures!"</h3>
+          <div class="flex flex-wrap mt-8 w-full justify-center items-center">
+            <input type="email" class="lg:my-0 my-4 mx-4 px-2 py-3 lg:w-2/3 focus:outline-none rounded-lg" placeholder="Your Email" />
+            <button type="button" class="bg-white lg:mx-4 mx-auto rounded-md text-bun-orange px-2 py-3 border border-white hover:bg-bun-orange hover:text-white duration-300 ease-in-out">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </section>
+    </section>
+  </section>
+  <footer class="mt-12">
+    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+      <div class="lg:flex md:justify-between">
+        <div class="mb-6 md:mb-0 lg:w-1/2">
+          <a href="" class="flex items-center">
+            <img src="assets/icons/travlog.svg" alt="travlog" class="mr-4">
+            <span class="self-center text-2xl font-semibold whitespace-nowrap">Travlog</span>
+          </a>
+          <div class="mt-4">
+            <p class="text-bun-black opacity-60 font-mplus-bold">
+              Embark on unforgettable adventures with Travlog - your passport to exploration. From captivating landscapes to cultural wonders, discover curated travel experiences that turn every journey into a story worth sharing. Explore with Travlog, where each step is a new chapter in your extraordinary adventure.
+            </p>
+            <div class="mt-4">
+              <iconify-icon class="text-[#5D50C6] mx-2" width="36" icon="mdi:facebook"></iconify-icon>
+              <iconify-icon class="text-[#5D50C6] mx-2" width="36" icon="mdi:twitter"></iconify-icon>
+              <iconify-icon class="text-[#5D50C6] mx-2" width="36" icon="mdi:instagram"></iconify-icon>
+            </div>
+          </div>          
+        </div>
+        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div>
+            <h2 class="mb-6 text-lg font-semibold ">Company</h2>
+            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+              <li class="mb-4">
+                <a href="" class="hover:underline">About</a>
+              </li>
+              <li class="mb-4">
+                <a href="" class="hover:underline">Career</a>
+              </li>
+              <li>
+                <a href="" class="hover:underline">Mobile</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="mb-6 text-lg font-semibold ">Contact</h2>
+            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+              <li class="mb-4">
+                <a href="" class="hover:underline ">Why Travlog?</a>
+              </li>
+              <li class="mb-4">
+                <a href="" class="hover:underline ">Partner with us</a>
+              </li>
+              <li class="mb-4">
+                <a href="" class="hover:underline ">FAQ's</a>
+              </li>
+              <li class="mb-4">
+                <a href="" class="hover:underline ">Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="mb-6 text-lg font-semibold">Meet Us</h2>
+            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">info@travlog.com</a>
+              </li>
+              <li>
+                  <a href="#" class="hover:underline">+00 92 1234 56789</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+  </footer>
+</body>
+<script src="script.js"></script>
+</html>
